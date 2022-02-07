@@ -1,0 +1,113 @@
+html {
+    font-family: "Raleway", "Helvetica", sans-serif;
+    font-weight: 400;
+    color: #2F3442;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22.7066px;
+    line-height: 31px;
+    /* identical to box height, or 136% */
+    color: #222222;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    color: #BCD2DA;
+}
+
+.card {
+    display: flex;
+    /* display, flex-direction */
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+}
+
+.card__description {
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    /* display, flex-direction, justify-content, align-items */
+    padding: 15px 0;
+    align-items: center;
+}
+
+.card__descriptionIcon {
+    font-size: 32px;
+    margin-bottom: 10px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolinhaedit {
+    display: flex;
+    margin-bottom: -2px;
+}
+
+.card__descriptionText {
+    color: #57727C;
+    font-size: 12px;
+    text-align: center;
+    max-width: calc(100% - 30px);
+}
+
+.card__price {
+    text-align: center;
+    color: #57727C;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 20px 25px;
+    background-color: #ECF1F4;
+}
+
+.cardGroup {
+    display: flex;
+    /* display */
+    border: 0px solid #CAD0D2;
+    overflow: hidden;
+}
+
+.cardGroup__card {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    flex-basis: 33%;
+    /* flex-grow, flex-shrink, flex-basis */
+    border: none;
+    border-radius: 0;
+    margin: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    padding-top: 60px;
+    border-top: 1px solid #CAD0D2;
+    border-bottom: 1px solid #CAD0D2;
+}
+
+.cardGroup__card {
+    border-left: 1px solid #D7DBDD;
+    border-right: 1px solid #D7DBDD;
+}
+
+.cardGroup__cardDescription {
+    /* flex-grow, flex-shrink, flex-basis */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    align-items: center;
+}
